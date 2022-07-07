@@ -1,3 +1,4 @@
+// Re-export errors and middlewares
 export * from "./errors/bad-request-error"
 export * from "./errors/custom-error";
 export * from "./errors/db-connection-error";
