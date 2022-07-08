@@ -13,9 +13,8 @@ export const errorHandler = (
     });
   }
   //If we dont understand the error handle it here in the same structure as the others
-  res
-    .status(400)
-    .send({
-      errors: [{ message: "Sorry, Something went wrong", error: err.message }],
-    });
+  console.error(err);
+  res.status(400).send({
+    errors: [{ message: "Sorry, Something went wrong", error: err.message }],
+  });
 };
