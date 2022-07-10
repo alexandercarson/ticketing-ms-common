@@ -18,5 +18,6 @@ export * from "./events/base-listener"
 export * from "./events/base-publisher";
 export * from "./events/enums/subjects";
 export * from "./events/enums/queue-groups";
+export * from "./events/enums/order-status";
 export * from "./events/interfaces/tickets/ITicketCreated";
 export * from "./events/interfaces/tickets/ITicketUpdated";
