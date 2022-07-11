@@ -15,7 +15,7 @@ export abstract class Publisher<T extends IEventPublisher> {
         if (err) {
           reject(err);
         }
-        console.log("Event Published to subject", this.subject);
+        console.log("Event Published to ->", this.subject);
         resolve();
       });
     });
